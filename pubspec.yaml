@@ -30,7 +30,7 @@ dependencies:
     git:
       url: https://github.com/tsvillain/Flutter-Neumorphic.git #flutter^2.5におけるconflict対策
   html_unescape: ^2.0.0
-  package_info: ^2.0.2 #no support for Windows
+  package_info_plus: ^1.0.6 #changed from package_info in order to support Windows
   charts_flutter: #^0.11.0
     git:
       url: git://github.com/google/charts.git #body1 error対策

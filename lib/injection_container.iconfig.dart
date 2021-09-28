@@ -8,7 +8,7 @@ import 'package:sembast/sembast.dart';
 import 'package:tus_class/core/register_module.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'package:package_info/package_info.dart';
+import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:tus_class/core/tus_client/data_source/tus_client.dart';
 import 'package:tus_class/core/tus_client/repositories/tus_repository_impl.dart';
