@@ -13,7 +13,7 @@ abstract class GradeModel implements _$GradeModel {
     @required String subject,
     @required String semester,
     @required String code,
-    @nullable @required int day,
+    /*@nullable*/ @required int day,
     @required List<int> periods,
     @required String teacher,
     @required int year,

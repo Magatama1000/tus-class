@@ -18,7 +18,7 @@ class _$CurriculumModelTearOff {
 
 // ignore: unused_element
   _CurriculumModel call(
-      {@required @nullable String code,
+      {@required /*@nullable*/ String code,
       @required String course,
       @required String teacher,
       @required String semester,
@@ -50,7 +50,7 @@ const $CurriculumModel = _$CurriculumModelTearOff();
 
 /// @nodoc
 mixin _$CurriculumModel {
-  @nullable
+  /*@nullable*/
   String get code;
   String get course;
   String get teacher;
@@ -70,7 +70,7 @@ abstract class $CurriculumModelCopyWith<$Res> {
           CurriculumModel value, $Res Function(CurriculumModel) then) =
       _$CurriculumModelCopyWithImpl<$Res>;
   $Res call(
-      {@nullable String code,
+      {/*@nullable*/ String code,
       String course,
       String teacher,
       String semester,
@@ -121,7 +121,7 @@ abstract class _$CurriculumModelCopyWith<$Res>
       __$CurriculumModelCopyWithImpl<$Res>;
   @override
   $Res call(
-      {@nullable String code,
+      {/*@nullable*/ String code,
       String course,
       String teacher,
       String semester,
@@ -171,7 +171,7 @@ class __$CurriculumModelCopyWithImpl<$Res>
 /// @nodoc
 class _$_CurriculumModel extends _CurriculumModel {
   const _$_CurriculumModel(
-      {@required @nullable this.code,
+      {@required /*@nullable*/ this.code,
       @required this.course,
       @required this.teacher,
       @required this.semester,
@@ -192,7 +192,7 @@ class _$_CurriculumModel extends _CurriculumModel {
       _$_$_CurriculumModelFromJson(json);
 
   @override
-  @nullable
+  /*@nullable*/
   final String code;
   @override
   final String course;
@@ -264,7 +264,7 @@ class _$_CurriculumModel extends _CurriculumModel {
 abstract class _CurriculumModel extends CurriculumModel {
   const _CurriculumModel._() : super._();
   const factory _CurriculumModel(
-      {@required @nullable String code,
+      {@required /*@nullable*/ String code,
       @required String course,
       @required String teacher,
       @required String semester,
@@ -277,7 +277,7 @@ abstract class _CurriculumModel extends CurriculumModel {
       _$_CurriculumModel.fromJson;
 
   @override
-  @nullable
+  /*@nullable*/
   String get code;
   @override
   String get course;

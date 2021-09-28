@@ -22,7 +22,7 @@ class _$GradeModelTearOff {
       @required String subject,
       @required String semester,
       @required String code,
-      @required @nullable int day,
+      @required /*@nullable*/ int day,
       @required List<int> periods,
       @required String teacher,
       @required int year,
@@ -70,7 +70,7 @@ mixin _$GradeModel {
   String get subject;
   String get semester;
   String get code;
-  @nullable
+  /*@nullable*/
   int get day;
   List<int> get periods;
   String get teacher;
@@ -98,7 +98,7 @@ abstract class $GradeModelCopyWith<$Res> {
       String subject,
       String semester,
       String code,
-      @nullable int day,
+      /*@nullable*/ int day,
       List<int> periods,
       String teacher,
       int year,
@@ -171,7 +171,7 @@ abstract class _$GradeModelCopyWith<$Res> implements $GradeModelCopyWith<$Res> {
       String subject,
       String semester,
       String code,
-      @nullable int day,
+      /*@nullable*/ int day,
       List<int> periods,
       String teacher,
       int year,
@@ -244,7 +244,7 @@ class _$_GradeModel extends _GradeModel {
       @required this.subject,
       @required this.semester,
       @required this.code,
-      @required @nullable this.day,
+      @required /*@nullable*/ this.day,
       @required this.periods,
       @required this.teacher,
       @required this.year,
@@ -285,7 +285,7 @@ class _$_GradeModel extends _GradeModel {
   @override
   final String code;
   @override
-  @nullable
+  /*@nullable*/
   final int day;
   @override
   final List<int> periods;
@@ -395,7 +395,7 @@ abstract class _GradeModel extends GradeModel {
       @required String subject,
       @required String semester,
       @required String code,
-      @required @nullable int day,
+      @required /*@nullable*/ int day,
       @required List<int> periods,
       @required String teacher,
       @required int year,
@@ -420,7 +420,7 @@ abstract class _GradeModel extends GradeModel {
   @override
   String get code;
   @override
-  @nullable
+  /*@nullable*/
   int get day;
   @override
   List<int> get periods;

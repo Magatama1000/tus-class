@@ -26,7 +26,7 @@ class _$SyllabusModelTearOff {
       @required String type,
       @required int page,
       @required int year,
-      @required @nullable int day,
+      @required /*@nullable*/ int day,
       @required List<int> periods}) {
     return _SyllabusModel(
       code: code,
@@ -62,7 +62,7 @@ mixin _$SyllabusModel {
   String get type;
   int get page;
   int get year;
-  @nullable
+  /*@nullable*/
   int get day;
   List<int> get periods;
 
@@ -84,7 +84,7 @@ abstract class $SyllabusModelCopyWith<$Res> {
       String type,
       int page,
       int year,
-      @nullable int day,
+      /*@nullable*/ int day,
       List<int> periods});
 }
 
@@ -141,7 +141,7 @@ abstract class _$SyllabusModelCopyWith<$Res>
       String type,
       int page,
       int year,
-      @nullable int day,
+      /*@nullable*/ int day,
       List<int> periods});
 }
 
@@ -197,7 +197,7 @@ class _$_SyllabusModel extends _SyllabusModel {
       @required this.type,
       @required this.page,
       @required this.year,
-      @required @nullable this.day,
+      @required /*@nullable*/ this.day,
       @required this.periods})
       : assert(code != null),
         assert(course != null),
@@ -230,7 +230,7 @@ class _$_SyllabusModel extends _SyllabusModel {
   @override
   final int year;
   @override
-  @nullable
+  /*@nullable*/
   final int day;
   @override
   final List<int> periods;
@@ -304,7 +304,7 @@ abstract class _SyllabusModel extends SyllabusModel {
       @required String type,
       @required int page,
       @required int year,
-      @required @nullable int day,
+      @required /*@nullable*/ int day,
       @required List<int> periods}) = _$_SyllabusModel;
 
   factory _SyllabusModel.fromJson(Map<String, dynamic> json) =
@@ -327,7 +327,7 @@ abstract class _SyllabusModel extends SyllabusModel {
   @override
   int get year;
   @override
-  @nullable
+  /*@nullable*/
   int get day;
   @override
   List<int> get periods;

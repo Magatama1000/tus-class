@@ -17,7 +17,7 @@ abstract class SyllabusModel implements _$SyllabusModel {
     @required String type,
     @required int page,
     @required int year,
-    @nullable @required int day,
+    /*@nullable*/ @required int day,
     @required List<int> periods,
   }) = _SyllabusModel;
   const SyllabusModel._();

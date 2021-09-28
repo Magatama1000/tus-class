@@ -9,7 +9,7 @@ part 'curriculum_model.g.dart';
 @freezed
 abstract class CurriculumModel implements _$CurriculumModel {
   const factory CurriculumModel({
-    @nullable @required String code,
+    /*@nullable*/ @required String code,
     @required String course,
     @required String teacher,
     @required String semester,

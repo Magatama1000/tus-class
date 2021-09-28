@@ -38,10 +38,10 @@ class LoginRepositoryImpl implements LoginRepository {
 
       if (hour >= 2 && hour < 4) {
         // Android
-        if (e.type == DioErrorType.CONNECT_TIMEOUT) {
+        if (e.type == DioErrorType.connectTimeout) {
           return Left(ServerMaintenanceFailure());
           // IOS
-        } else if (e.type == DioErrorType.DEFAULT) {
+        } else if (e.type == DioErrorType.other) {
           return Left(ServerMaintenanceFailure());
         }
       }
